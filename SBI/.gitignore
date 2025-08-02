@@ -1,0 +1,15 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore dotenv environment files
+.env
+.env.*  # Optional: ignores .env.local, .env.production, etc.
+
+# Optional: logs, OS files, and others
+logs
+*.log
+npm-debug.log*
+
+# Optional: build artifacts
+dist/
+build/
